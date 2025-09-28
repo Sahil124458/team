@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovateX Team | Modern Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <div class="logo">Team Portfolio Website</div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Innovate. Create.<br>Elevate.</h1>
+                <p>We are a team of passionate designers and developers dedicated to crafting exceptional digital experiences that push the boundaries of innovation.</p>
+                <a href="#team" class="btn hero-btn">Meet Our Team</a>
+            </div>
+        </div>
+    </section>
+   
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Creative Team</h2>
+                <p>Meet the talented individuals behind our success</p>
+            </div>
+
+            <div class="team-grid">
+                <!-- Team Member 1 -->
+                <div class="team-card fade-in">
+                    <div class="team-img">
+                        <img src="profile.jpg">
+                    </div>
+                    <div class="team-info">
+                        <h3>Sahil Khanna</h3>
+                        <div class="role">Lead Designer</div>
+                        <p>Creating visually stunning experiences with a focus on user-centered design.</p>
+                        <a href="#" class="view-profile" data-member="sarah">View Profile</a>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="team-card fade-in">
+                    <div class="team-img">
+                        <img src="p2.jpg">
+                    </div>
+                    <div class="team-info">
+                        <h3>Sarthak Bhardwaj</h3>
+                        <div class="role">Full-Stack Developer</div>
+                        <p>Transforming ideas into functional and scalable digital solutions.</p>
+                        <a href="#" class="view-profile" data-member="sarthak">View Profile</a>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="team-card fade-in">
+                    <div class="team-img">
+                        <img src="https://placeholder-image-service.onrender.com/image/400x300?prompt=professional%20portrait%20of%20a%20marketing%20strategist%20with%20creative%20background&id=7d8e9f0a-1b2c-3d4e-5f6a-7b8c9d0e1f2a" alt="Portrait of Maya Rodriguez, a marketing strategist with creative background">
+                    </div>
+                    <div class="team-info">
+                        <h3>Samarth Srivastav</h3>
+                        <div class="role">Marketing Strategist</div>
+                        <p>Building brands and crafting stories that resonate with audiences.</p>
+                        <a href="#" class="view-profile" data-member="samarth">View Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Modals -->
+    <!-- Sarah's Modal -->
+    <div id="sarah-modal" class="modal">
+        <div class="modal-content">
+            <div class="close-modal">&times;</div>
+            <div class="profile-header">
+                <div class="profile-img floating">
+                    <img src="https://placeholder-image-service.onrender.com/image/400x400?prompt=professional%20headshot%20of%20a%20female%20designer%20with%20creative%20style&id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d" alt="Professional headshot of Sarah Johnson, a creative designer">
+                </div>
+                <h2>Sahil Khanna</h2>
+                <div class="role">Lead Designer</div>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="profile-details">
+                <div class="profile-bio">
+                    <h3>About Me</h3>
+                    <p>Sarah is a passionate designer with over 8 years of experience in creating visually stunning and user-friendly interfaces. She specializes in UX/UI design and has worked with numerous startups and Fortune 500 companies to create digital experiences that delight users and drive engagement.</p>
+                    <p>Her design philosophy centers around simplicity, functionality, and emotional connection. When she's not designing, Sarah enjoys photography and hiking in the mountains.</p>
+                </div>
+
+                <div class="skills-section">
+                    <h3>Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>UI/UX Design</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Figma</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Adobe Creative Suite</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Web Design</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects-section">
+                    <h3>Projects</h3>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h4>FinTech Dashboard</h4>
+                            <p>A comprehensive financial dashboard for wealth management with intuitive data visualization.</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h4>E-commerce Platform</h4>
+                            <p>Redesigned the user experience for a major online retail platform, increasing conversions by 34%.</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h4>Health & Wellness App</h4>
+                            <p>Mobile application design focused on creating a calming and encouraging user experience.</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-actions">
+                <a href="#" class="btn"><i class="fas fa-download"></i> Download Resume</a>
+                <a href="#" class="btn" style="background: transparent; border: 2px solid var(--primary);">Contact Me</a>
+            </div>
+        </div>
+    </div>
+ <!--sarthak Modal -->
+    <div id="sarthak-modal" class="modal">
+        <div class="modal-content">
+            <div class="close-modal">&times;</div>
+            <div class="profile-header">
+                <div class="profile-img floating">
+                    <img src="https://placeholder-image-service.onrender.com/image/400x400?prompt=professional%20headshot%20of%20a%20female%20designer%20with%20creative%20style&id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d" alt="Professional headshot of Sarah Johnson, a creative designer">
+                </div>
+                <h2>Sarthak Bhardwaj</h2>
+                <div class="role">Lead Designer</div>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="profile-details">
+                <div class="profile-bio">
+                    <h3>About Me</h3>
+                    <p>Sarah is a passionate designer with over 8 years of experience in creating visually stunning and user-friendly interfaces. She specializes in UX/UI design and has worked with numerous startups and Fortune 500 companies to create digital experiences that delight users and drive engagement.</p>
+                    <p>Her design philosophy centers around simplicity, functionality, and emotional connection. When she's not designing, Sarah enjoys photography and hiking in the mountains.</p>
+                </div>
+
+                <div class="skills-section">
+                    <h3>Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>UI/UX Design</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Figma</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Adobe Creative Suite</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Web Design</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects-section">
+                    <h3>Projects</h3>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h4>FinTech Dashboard</h4>
+                            <p>A comprehensive financial dashboard for wealth management with intuitive data visualization.</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h4>E-commerce Platform</h4>
+                            <p>Redesigned the user experience for a major online retail platform, increasing conversions by 34%.</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h4>Health & Wellness App</h4>
+                            <p>Mobile application design focused on creating a calming and encouraging user experience.</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-actions">
+                <a href="#" class="btn"><i class="fas fa-download"></i> Download Resume</a>
+                <a href="#" class="btn" style="background: transparent; border: 2px solid var(--primary);">Contact Me</a>
+            </div>
+        </div>
+    </div>
+ <!--samarth Modal -->
+    <div id="samarth-modal" class="modal">
+        <div class="modal-content">
+            <div class="close-modal">&times;</div>
+            <div class="profile-header">
+                <div class="profile-img floating">
+                    <img src="https://placeholder-image-service.onrender.com/image/400x400?prompt=professional%20headshot%20of%20a%20female%20designer%20with%20creative%20style&id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d" alt="Professional headshot of Sarah Johnson, a creative designer">
+                </div>
+                <h2>Samarth Srivastav</h2>
+                <div class="role">Lead Designer</div>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="profile-details">
+                <div class="profile-bio">
+                    <h3>About Me</h3>
+                    <p>Sarah is a passionate designer with over 8 years of experience in creating visually stunning and user-friendly interfaces. She specializes in UX/UI design and has worked with numerous startups and Fortune 500 companies to create digital experiences that delight users and drive engagement.</p>
+                    <p>Her design philosophy centers around simplicity, functionality, and emotional connection. When she's not designing, Sarah enjoys photography and hiking in the mountains.</p>
+                </div>
+
+                <div class="skills-section">
+                    <h3>Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>UI/UX Design</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Figma</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Adobe Creative Suite</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Web Design</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects-section">
+                    <h3>Projects</h3>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h4>FinTech Dashboard</h4>
+                            <p>A comprehensive financial dashboard for wealth management with intuitive data visualization.</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h4>E-commerce Platform</h4>
+                            <p>Redesigned the user experience for a major online retail platform, increasing conversions by 34%.</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h4>Health & Wellness App</h4>
+                            <p>Mobile application design focused on creating a calming and encouraging user experience.</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-actions">
+                <a href="#" class="btn"><i class="fas fa-download"></i> Download Resume</a>
+                <a href="#" class="btn" style="background: transparent; border: 2px solid var(--primary);">Contact Me</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background: var(--darker-bg); padding: 40px 0; text-align: center;">
+        <div class="container">
+            <p>&copy; 2023 InnovateX Team. All rights reserved.</p>
+            <div class="social-links" style="margin-top: 20px;">
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>       
